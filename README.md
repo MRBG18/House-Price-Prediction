@@ -17,6 +17,18 @@ The system automatically performs **data cleaning, feature engineering, outlier 
 | 🔹 Results Shown in ₹ | Indian currency formatted dynamically |
 
 ---
+## 🏠 Features Used in Prediction (With Meaning)
+
+| Input Field (GUI) | Feature Name | Description |
+|------------------|--------------|-------------|
+| Area (sqft) | `sqft` | Total built-up area of the house in square feet |
+| Bedrooms | `bedrooms` | Number of bedrooms available in the property |
+| Bathrooms | `bathrooms` | Total number of bathrooms (attached + common) |
+| Age (Years) | `age` | Age of the property — how old the building is |
+| Garage Space | `garage` | Number of cars/bikes that can be parked |
+| Distance to City | `distance_city` | Distance from main city center (lower = costlier) |
+| School Rating | `school_rating` | Nearby school quality rating from 1 to 10 |
+
 
 ## 📊 Machine Learning Workflow
 
